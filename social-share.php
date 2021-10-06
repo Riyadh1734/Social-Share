@@ -36,6 +36,7 @@ function social_share_contents($atts) {
         <a href="#" target="_blank"><div class="social in"><i class="fa fa-linkedin  fa-2x"></i><span>Linked In</span></div></a>
         <a href="#" target="_blank"><div class="social pin"><i class="fa fa-pinterest-p fa-2x"></i><span>Pinterest</span></div></a>
         <a href="#" target="_blank"><div class="social git"><i class="fa fa-github fa-2x"></i><span>Github</span></div></a>
+        <a href="#" target="_blank"><div class="social G+"><i class="fa fa-google-plus fa-2x"></i><span>Google+</span></div></a>
     </div>';
     return ob_get_clean();
 }
